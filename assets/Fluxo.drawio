@@ -1,0 +1,98 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="Page-1" id="xQ8s2Q3PXeCIFm0nmp8_">
+    <mxGraphModel dx="1660" dy="822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dPkHiC-_x82WxMXVspac-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="dPkHiC-_x82WxMXVspac-1" edge="1" target="dPkHiC-_x82WxMXVspac-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dPkHiC-_x82WxMXVspac-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;LIsting&amp;nbsp;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dPkHiC-_x82WxMXVspac-2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Reviews&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dPkHiC-_x82WxMXVspac-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="dPkHiC-_x82WxMXVspac-4" edge="1" target="dPkHiC-_x82WxMXVspac-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dPkHiC-_x82WxMXVspac-4" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Calendar&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dPkHiC-_x82WxMXVspac-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dPkHiC-_x82WxMXVspac-2" target="dPkHiC-_x82WxMXVspac-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="270" as="targetPoint" />
+            <mxPoint x="160" y="270" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dPkHiC-_x82WxMXVspac-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dPkHiC-_x82WxMXVspac-9" target="dPkHiC-_x82WxMXVspac-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dPkHiC-_x82WxMXVspac-9" value="Camada Bronze&lt;br&gt;3 tabelas: dados brutos" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="240" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dPkHiC-_x82WxMXVspac-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dPkHiC-_x82WxMXVspac-11" target="dPkHiC-_x82WxMXVspac-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dPkHiC-_x82WxMXVspac-11" value="Data Clean:&lt;div&gt;Camada Silver&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="240" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dPkHiC-_x82WxMXVspac-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dPkHiC-_x82WxMXVspac-13" target="dPkHiC-_x82WxMXVspac-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dPkHiC-_x82WxMXVspac-13" value="Data Quality:&lt;div&gt;Camada Silver&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="720" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dPkHiC-_x82WxMXVspac-17" value="&lt;h1 style=&quot;margin-top: 0px; line-height: 50%;&quot;&gt;&lt;font style=&quot;font-size: 12px; font-weight: normal;&quot;&gt;Valores ausentes, duplicatas e outliers.&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;Padronização e limpeza dos nomes das colunas&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;Limpeza textual em campos, como descrições de propriedades, removendo caracteres especiais e erros de digitação.&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="480" y="320" width="180" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="dPkHiC-_x82WxMXVspac-19" value="&lt;h1 style=&quot;margin-top: 0px; line-height: 50%;&quot;&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;DefinIr métricas de qualidade de dados, como integridade, precisão e consistência.&amp;nbsp;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400; background-color: initial;&quot;&gt;Implementar verificações para garantir que os dados estejam em conformidade com essas métricas.&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400; background-color: initial;&quot;&gt;Estabelecer um sistema de monitoramento contínuo da qualidade dos dados.&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="720" y="320" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="dPkHiC-_x82WxMXVspac-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dPkHiC-_x82WxMXVspac-20" target="dPkHiC-_x82WxMXVspac-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dPkHiC-_x82WxMXVspac-20" value="Testes de Qualidade:&lt;div&gt;Camada Silver&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="920" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dPkHiC-_x82WxMXVspac-23" value="&lt;h1 style=&quot;margin-top: 0px; line-height: 50%;&quot;&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;Great Expectations: criar testes de qualidade automatizados que verifiquem as expectativas definidas para os dados.&amp;nbsp;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400; background-color: initial;&quot;&gt;Desenvolva testes que assegurem que os dados atendem às regras de negócios e aos requisitos de qualidade&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="920" y="320" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="dPkHiC-_x82WxMXVspac-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dPkHiC-_x82WxMXVspac-24" target="dPkHiC-_x82WxMXVspac-29" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dPkHiC-_x82WxMXVspac-24" value="&lt;div&gt;Transformação de Dados com dbt: Camada Silver&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1120" y="240" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dPkHiC-_x82WxMXVspac-26" value="&lt;h1 style=&quot;margin-top: 0px; line-height: 50%;&quot;&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;Utilizar a ferramenta dbt para criar a camada &quot;silver&quot; de dados, realizando transformações e preparando os dados da camada em questão.&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400; background-color: initial;&quot;&gt;Manter um controle de versão dos modelos dbt e automatizar a execução das transformações.&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1120" y="320" width="180" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="dPkHiC-_x82WxMXVspac-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dPkHiC-_x82WxMXVspac-29" target="dPkHiC-_x82WxMXVspac-33" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dPkHiC-_x82WxMXVspac-29" value="Armazenamento de Dados: &lt;br&gt;Camada Silver" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1360" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dPkHiC-_x82WxMXVspac-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dPkHiC-_x82WxMXVspac-33" target="dPkHiC-_x82WxMXVspac-37" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dPkHiC-_x82WxMXVspac-33" value="Validação de Expectativas com Great Expectations: Camada Silver" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1560" y="240" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dPkHiC-_x82WxMXVspac-36" value="&lt;h1 style=&quot;margin-top: 0px; line-height: 50%;&quot;&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;Validações adicionais usando Great Expectations nas camadas de dados da camada &quot;silver&quot;.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400; background-color: initial;&quot;&gt;Monitorar a qualidade dos dados da camada &quot;silver&quot; após cada transformação e ajuste os testes de acordo.&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1360" y="320" width="180" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="dPkHiC-_x82WxMXVspac-37" value="Transformação de Dados com dbt - Camada Gold" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1800" y="240" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dPkHiC-_x82WxMXVspac-39" value="&lt;h1 style=&quot;margin-top: 0px; line-height: 50%;&quot;&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;Utilize o dbt para criar a camada &quot;gold&quot; de dados, aplicando agregações especializadas, como médias de preços por propriedade, por período, e outras agregações especializadas.&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400; background-color: initial;&quot;&gt;Mantenha um controle de versão dos modelos dbt relacionados à camada &quot;gold&quot; e automatize a execução das transformações.&amp;nbsp;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400; background-color: initial;&quot;&gt;Armazene os dados da camada &quot;gold&quot; no mesmo banco de dados PostgreSQL, mantendo a estrutura de dados otimizada para consultas analíticas.&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1800" y="320" width="180" height="320" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
