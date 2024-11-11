@@ -41,4 +41,4 @@ Criar testes para validar as expectativas de dados e garantir conformidade com r
 - Armazenar os dados, prontos para consultas analíticas.
 
 ### Tecnologias Utilizadas
-
+https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/4429684855330251/109019873945442/3942652740885319/latest.html
