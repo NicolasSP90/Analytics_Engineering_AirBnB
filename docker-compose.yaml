@@ -1,0 +1,34 @@
+version: '3.8'
+
+services:
+  jupyter:
+    build:
+      context: .
+      dockerfile: Dockerfile.jupyter
+    container_name: jupyter_pyspark
+    ports:
+      - "8888:8888"         # Porta para acessar o Jupyter Notebook
+      - "8080:8080" 
+    volumes:
+      #mkdir -p /home/naiara/Documentos/Git/ada/analytics_engineering/work_new
+      #chmod -R 777 /home/naiara/Documentos/Git/ada/analytics_engineering/work_new
+      - /home/naiara/Documentos/Git/ada/analytics_engineering/work_new:/home/jovyan/work   # Monta o diretório local na pasta de trabalho do container
+    environment:
+      - JUPYTER_ENABLE_LAB=yes    # Habilita o JupyterLab (opcional)
+    depends_on:
+      - db                        # Garante que o serviço do banco suba antes do Jupyter
+
+  db:
+    image: postgres:latest
+    container_name: postgres_db
+    environment:
+      POSTGRES_USER: user         # Usuário do banco
+      POSTGRES_PASSWORD: password # Senha do banco
+      POSTGRES_DB: mydatabase     # Nome do banco de dados
+    ports:
+      - "5432:5432"               # Porta para acessar o PostgreSQL
+    volumes:
+      - postgres_data:/var/lib/postgresql/data # Persiste dados do PostgreSQL
+
+volumes:
+  postgres_data:

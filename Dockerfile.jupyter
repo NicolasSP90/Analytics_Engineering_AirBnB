@@ -1,0 +1,35 @@
+FROM jupyter/pyspark-notebook:spark-3.5.0
+
+# Mude para root para aplicar permissões
+USER root
+
+RUN apt-get update && apt-get install -y openjdk-8-jdk
+
+# Definir JAVA_HOME
+ENV JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+ENV PATH=$JAVA_HOME/bin:$PATH
+
+# Instale delta-spark via pip
+RUN pip install delta-spark==3.2.0
+RUN pip install great-expectations
+
+
+# Baixar o JAR do Delta Lake compatível com Spark 3.5.x
+#ADD https://repo1.maven.org/maven2/io/delta/delta-core_2.12/2.1.0/delta-core_2.12-2.1.0.jar /usr/local/spark/jars/
+
+# Definir o PYSPARK_SUBMIT_ARGS com o Delta Lake configurado
+#ENV PYSPARK_SUBMIT_ARGS="--packages io.delta:delta-core_2.12:2.1.0 --conf spark.sql.extensions=io.delta.sql.DeltaSparkSessionExtension --conf spark.sql.catalog.spark_catalog=org.apache.spark.sql.delta.catalog.DeltaCatalog pyspark-shell"
+
+
+
+# Crie a pasta /home/jovyan/work e aplique permissões
+RUN mkdir -p /home/jovyan/work && chmod -R 777 /home/jovyan/work
+
+# Retorne para o usuário jovyan
+USER jovyan
+
+# Inicia o Jupyter Notebook
+CMD ["start-notebook.sh"]
+
+#RUN export PACKAGES="io.delta:delta-core_2.12:0.7.0"
+#RUN export PYSPARK_SUBMIT_ARGS="--packages ${PACKAGES} pyspark-shell"
