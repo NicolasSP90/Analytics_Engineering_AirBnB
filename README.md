@@ -6,7 +6,7 @@ Este projeto visa construir um pipeline de dados para o conjunto de dados do Air
 O projeto utiliza uma arquitetura em camadas (Bronze, Silver e Gold) para armazenar dados brutos, processados e prontos para análise. Para isso, são aplicadas técnicas de engenharia de dados, garantindo a qualidade e a integridade dos dados em cada fase.
 
 ### Dados
-O conjunto de dados <a href="http://insideairbnb.com/">"Inside Airbnb"</a>, fornece informações valiosas sobre:
+O conjunto de dados <a href="http://insideairbnb.com/">"Inside Airbnb"</a>, fornece informações sobre:
 
 **Listing (Listagem):** Detalhes de propriedades, incluindo tipo, preço, localização e comodidades.
 
