@@ -41,4 +41,17 @@ Criar testes para validar as expectativas de dados e garantir conformidade com r
 - Armazenar os dados, prontos para consultas analíticas.
 
 ### Tecnologias Utilizadas
-https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/4429684855330251/109019873945442/3942652740885319/latest.html
+**PySpark:** Para processamento e manipulação de grandes volumes de dados.
+
+**Databricks:** Plataforma de análise unificada para engenharia de dados.
+
+**SQL:** Linguagem para consultas e transformações de dados em bancos de dados.
+
+**GitHub:** Controle de versão e colaboração.
+
+**dbt (Data Build Tool):** Para transformação e modelagem de dados nas camadas silver e gold.
+
+**Great Expectations:** Para testes e validação de qualidade de dados na camada silver.
+
+Para acessar o projeto via databricks  <a href= "https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/4429684855330251/109019873945442/3942652740885319/latest.html"> clique aqui </a> 
+
