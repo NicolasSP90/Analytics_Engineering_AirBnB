@@ -25,7 +25,7 @@ Este projeto tem como objetivo construir uma pipeline de dados para o conjunto d
 
 * Desenvolver na plataforma Databricks (Community)
 
-# Objetivos Futuros
+# Objetivos Futuros 
 
 O projeto foi realizado em grupo por: Amanda Almeida e Angélica Salvino, Naiara Andrade e Nícolas Sartor Parisotto. Inicialmente os integrantes se reuniram e cada um realizou seu projeto (código, tecnologias, propostas), baseado em algumas diretrizes e direcionamentos gerais do grupo. Agora, a ideia é convergir os projetos para criar uma nova aplicação.
 
